@@ -9,13 +9,84 @@
     -->  
 
     <style type="text/css">
+ p{
+text-align: center;
+ }
 
+        #grow:hover {
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
 
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph.</p>
+<p>
+    <span style="font-size: 25pt; font-family: fantasy; color: hotpink;">Stanley Brouwn: A Short Manifesto </span>
+    <p>
+
+        <span style="font-size:10pt;font-family: fantasy;color:orangered;">When science and art are entirely melted together to something new</span>
+    </p>
+    <p>
+        <span style="font-size:10pt;font-family: fantasy;color:hotpink;">When the people will have lost their remembrance and thus will have no past, only future.</span>
+    </p>
+
+        <span style="font-size:10pt;font-family: fantasy;color:orangered;">When they will have to discover everything every moment again and again</span>
+    </p>
+    <p>
+        <span style="font-size:10pt;font-family: fantasy;color:hotpink;">When they will have lost their need for contact with others</span>
+    </p>
+    <p>
+        <span style="font-size:10pt;font-family: fantasy;color:orangered;">Then they will live in a world of only colour, light, space, time, sounds and movement</span>
+    </p>
+    <p>
+        <span style="font-size:10pt;font-family: fantasy;color:hotpink;">Then colour light space time sounds and movement will be free</span> 
+    </p>
+
+
+    <p>
+        <span style="font-size:10pt;font-family: fantasy;color:deeppink;">No music</span>
+    </p>
+    <p>
+        <span style="font-size:10pt;font-family: fantasy;color:deeppink;">No theatre</span>
+    </p>
+    <p>
+        <span style="font-size:10pt;font-family: fantasy;color:deeppink;">No art</span>
+    </p>
+
+
+    <p>
+        <span style="font-size:20pt;font-family: fantasy;color:darkorange;">There will be</span> </p>
+    <p> <span style="font-size:20pt;font-family: fantasy;color:darkorange;">           Sound</span> </p>
+    <p> <span style="font-size:20pt;font-family: fantasy;color:darkorange;">          Colour</span> </p>
+        <p> <span style="font-size:20pt;font-family: fantasy;color:darkorange;">           Light</span> </p>
+        <p> <span style="font-size:20pt;font-family: fantasy;color:darkorange;">           Space</span> </p>
+       <p> <span style="font-size:20pt;font-family: fantasy;color:darkorange;">           Time</span> </p>
+       <p> <span style="font-size:20pt;font-family: fantasy;color:darkorange;">           Movement</span> </p>
+
+
+
+<script type="text/javascript">
+let g = document.getElementById("grow");
+
+// set the font-size property in JavaScript
+g.style.fontSize = "100%";
+
+// add a function to the onclick event
+g.onclick = function(){
+
+     // determine current font size and convert it to an integer
+     let fs = Number(this.style.fontSize.replace("%",""));
+
+     // make sure it worked
+     console.log(fs);
+
+     // change the color of the clicked element 
+     this.style.color = "red";
+
+     // change the font size to increase it by 10%
+     this.style.fontSize = fs * 1.1 + "%";
+};
+</script>
 
 </body>
 </html> 
