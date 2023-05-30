@@ -5,12 +5,12 @@ let sampleX = 50;
 let sampleY = 50;
 
 function preload(){
-  img = loadImage('https://halliedrink.github.io/creative-coding/week2/pixels/mae-mu-_C5zsV_p-YI-unsplash.jpg');
+  img = loadImage('https://halliedrink.github.io/creative-coding/week2/pixels/flower.jpg');
 
 }
 
 function setup() {
-  createCanvas(700, 2000);
+  createCanvas(700, 700);
   img.loadPixels();
 }
 
