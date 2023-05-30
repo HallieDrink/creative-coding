@@ -1,8 +1,8 @@
 //custom pixals
 
 let img; 
-let sampleX = 20;
-let sampleY = 20;
+let sampleX = 10;
+let sampleY = 10;
 
 function preload(){
   img = loadImage('https://halliedrink.github.io/creative-coding/week2/pixels/flower.jpg');
@@ -10,14 +10,14 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(700, 700);
+  createCanvas(700,700);
   img.loadPixels();
 }
 
 function draw() {
   background(220);
 
-  translate(100,100);
+  translate(50,50);
 //image(img, 0,0);
 
   for (let x = 0; x <= img.width; x += sampleX){
