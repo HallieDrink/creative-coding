@@ -1,8 +1,8 @@
 //custom pixals
 
 let img; 
-let sampleX = 50;
-let sampleY = 50;
+let sampleX = 20;
+let sampleY = 20;
 
 function preload(){
   img = loadImage('https://halliedrink.github.io/creative-coding/week2/pixels/flower.jpg');
@@ -28,7 +28,7 @@ function draw() {
       var b = img.pixels[index + 2];
 
       fill(r,g,b);
-      rect(x,y,sampleX,sampleY);
+      ellipse(x,y,sampleX,sampleY);
     }
   }
 
