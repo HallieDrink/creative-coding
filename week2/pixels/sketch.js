@@ -5,7 +5,7 @@ let sampleX = 10;
 let sampleY = 10;
 
 function preload(){
-  img = loadImage('https://halliedrink.github.io/creative-coding/week2/pixels/flower.jpg');
+  img = loadImage('https://halliedrink.github.io/creative-coding/week2/pixels/field.jpg');
 
 }
 
