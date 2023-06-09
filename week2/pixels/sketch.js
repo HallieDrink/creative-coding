@@ -10,7 +10,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(700,700);
+  createCanvas(2500,2000);
   noStroke()
   img.loadPixels();
 }
