@@ -1,10 +1,19 @@
+var img;
+
+function preload(){
+img = loadImage(sad.jpg);
+
+}
+
 function setup() {
   createCanvas(500, 4400);
+  
 }
 
 function draw() {
   background(220);
 
+//phrases
   textSize(25);
   textFont("block")
   text("I AM SAD", 200, 50);
@@ -15,4 +24,15 @@ function draw() {
   text("I WANT A DRINK", 170, 2750);
   text("BATHROOM", 200, 3300);
   text("RECESS", 200, 3850);
+
+//images for sad, haappy, tired, mad
+  image(img, 50 ,50);
+
+
+
+
+
+
+
+
 }
