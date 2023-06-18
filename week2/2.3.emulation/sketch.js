@@ -10,39 +10,39 @@ function draw() {
   background(255);
 
 
-fill("green");
+fill("darkblue");
 rect(20,20,105,105);
 
 
-fill("lightblue");
+fill("darkgreen");
 rect(20,145,105,105);
 
 
-fill("orange");
+fill("purple");
 rect(20,270,105,105);
 
 
-fill("yellow");
+fill("blue");
 rect(145,20,105,105);
 
 
-fill("black");
+fill("green");
 rect(145,145,105,105);
 
 
-fill("lightgreen");
+fill("magenta");
 rect(145,270,105,105);
 
 
-fill("blue");
+fill("lightblue");
 rect(270,20,105,105);
 
 
-fill("red");
+fill("lightgreen");
 rect(270,145,105,105);
 
 
-fill("purple");
+fill("violet");
 rect(270,270,105,105);
 
 

@@ -19,19 +19,19 @@ function draw() {
     if ((y + x) % 2 == 0){
       push();
       translate(x * 100, y * 100);
-      fill("lightgreen")
+      fill("darkblue")
       rect(0,0,100,100);
     
-    fill("hotpink");
+    fill("white");
       rect(10,10,75,75);
 
-      fill("yellow");
+      fill("darkblue");
         rect(20,20,50,50);
 
-        fill("lightgreen");
+        fill("white");
         rect(30,30,25,25);
 
-        fill("hotpink");
+        fill("darkblue");
         rect(40,40,10,10);
 
       pop();
@@ -39,20 +39,20 @@ function draw() {
     }else{
       push();
       translate(x * 100, y * 100);
-      fill("hotpink");
+      fill("white");
       rect(0,0,100,100);
 
 
-    fill("lightgreen");
+    fill("darkblue");
       rect(10,10,75,75);
 
-      fill("lightblue");
+      fill("white");
         rect(20,20,50,50);
 
-        fill("hotpink");
+        fill("darkblue");
         rect(30,30,25,25);
 
-        fill("lightgreen");
+        fill("white");
         rect(40,40,10,10);
       pop();
 }
